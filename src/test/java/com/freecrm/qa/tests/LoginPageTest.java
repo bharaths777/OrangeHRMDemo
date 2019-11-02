@@ -48,6 +48,7 @@ public class LoginPageTest extends TestBase {
 		boolean flag = loginPage.verifyLoginPageLogo();
 		Assert.assertTrue(flag);
 		System.out.println("LOGO TEST SUCCESSFULL");
+		System.out.println("logo 2");
 		logger.pass("login page logo test successfull");
 
 	}
@@ -62,6 +63,7 @@ public class LoginPageTest extends TestBase {
 
 		System.out.println("TITLE TEST SUCCESSFULL");
 		logger.pass("login page logo test successfull");
+		System.out.println("title 2");
 	}
 
 	@Test(priority = 3)
