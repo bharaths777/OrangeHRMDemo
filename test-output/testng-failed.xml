@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.freecrm.qa.base.TestBase">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.base.TestBase -->
+      <class name="com.freecrm.qa.tests.LoginPageTest">
+        <methods>
+          <include name="validateLoginPageTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.freecrm.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Free CRM suite] -->
