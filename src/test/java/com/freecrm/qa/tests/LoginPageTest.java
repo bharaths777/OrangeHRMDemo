@@ -47,6 +47,7 @@ public class LoginPageTest extends TestBase {
 		logger.info("login page logo test");
 		boolean flag = loginPage.verifyLoginPageLogo();
 		Assert.assertTrue(flag);
+		System.out.println("LOGO TEST SUCCESSFULL");
 		logger.pass("login page logo test successfull");
 
 	}
@@ -59,6 +60,7 @@ public class LoginPageTest extends TestBase {
 		Assert.assertEquals(title,
 				"CRMPRO - CRM software for customer relationship management, sales, and suppor");
 
+		System.out.println("TITLE TEST SUCCESSFULL");
 		logger.pass("login page logo test successfull");
 	}
 
@@ -69,6 +71,8 @@ public class LoginPageTest extends TestBase {
 		logger.info("login validation");
 		loginPage.verifyLogin(p.getProperty("username"),
 				p.getProperty("password"));
+		
+		System.out.println("LOGIN VALIDATION SUCCESSFULL");
 
 		logger.info("free crm login Successfull");
 
