@@ -50,6 +50,7 @@ public class LoginPageTest extends TestBase {
 		System.out.println("LOGO TEST SUCCESSFULL");
 		System.out.println("logo 2");
 		logger.pass("login page logo test successfull");
+		System.out.println("brach changes");
 
 	}
 
@@ -77,6 +78,7 @@ public class LoginPageTest extends TestBase {
 		System.out.println("LOGIN VALIDATION SUCCESSFULL");
 
 		logger.info("free crm login Successfull");
+		System.out.println("brach changes");
 
 	}
 	
@@ -102,6 +104,7 @@ public class LoginPageTest extends TestBase {
 		driver.quit();
 		logger.info("login page closed successfully");
 		Log.info("Free crm app closed successfully..");
+		System.out.println("brach changes");
 	}
 	
 	
